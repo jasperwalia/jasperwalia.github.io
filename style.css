@@ -1,14 +1,36 @@
-body{
-    /*background:#ADEFD1FF;*/
-    background-image: url(/pumpkin.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 50px;
-    text-align: center;
-    columns: #f4f4f4;
-    color:#00203FFF;
+html, body{
     width:100vw;
-    height:100%;
-    margin: 0 0 0  0 !important;
+    height:100vh;
+   font-family: Atomic Age;
 }
+
+#hero{
+    position: relative;
+    height:100vh;
+    widows: 100vw;
+}
+
+#bg{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("pexels-photo-1029757.jpeg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main_content{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 50vh;
+}
+
+.tint{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0, 0.75);
+}
+
