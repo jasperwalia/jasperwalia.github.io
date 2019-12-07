@@ -1,20 +1,64 @@
-html{
+html,body{
     font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", 游ゴシック, "Yu Gothic, ", YuGothic, Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-}
-bg{
-
-background-color: transparent;
-mix-blend-mode: multiply;
-box-shadow: none;
-}
-
-nav {
+  }
+  
+  html,body{
+    background: none !important;
+    background-color: tan;
+    mix-blend-mode: normal;
     box-shadow: none;
-}
+    height: 50px;
+    width: 100;
+  }
+  
 
-navbar-nav {
+
+
+  nav{
+    box-shadow:none;
+  }
+  navbar-nav{
+  
     font-style: normal;
     font-weight: 700;
     size: 30px;
     line-height: 30px;
-}
+    box-shadow: none;
+  }
+
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
