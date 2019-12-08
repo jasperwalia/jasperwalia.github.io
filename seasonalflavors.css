@@ -1,17 +1,23 @@
 html,body{
-    font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", 游ゴシック, "Yu Gothic, ", YuGothic, Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: 'Abel';font-size: 22px;
   }
   
-  html,body{
-    background: none !important;
-    background-color: tan;
-    mix-blend-mode: normal;
+  body{
+    
+    background-color:white;
+    mix-blend-mode: multiply;
     box-shadow: none;
     height: 50px;
     width: 100;
   }
-  
 
+  img {
+    max-width:100%;
+    height: auto;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/Pictures/border.png) 30 stretch;
+  }
 
 
   nav{

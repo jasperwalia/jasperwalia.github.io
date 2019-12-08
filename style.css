@@ -1,9 +1,10 @@
-html{
-  font-family: "Noto Sans JP", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN W3", HiraKakuProN-W3, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", 游ゴシック, "Yu Gothic, ", YuGothic, Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+html,body{
+    font-family: 'Noto Sans JP', sans-serif;
+    }
 }
 
 body{
-  background-color: transparent;
+  background-color: transprent;
   mix-blend-mode: normal;
   box-shadow: none;
 }
