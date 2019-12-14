@@ -1,0 +1,19 @@
+html,body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+box-shadow:none;
+}
+
+navbar-nav{
+font-style: normal;
+font-weight: 700;
+size: 30px;
+line-height: 30px;
+box-shadow:none;
+}
+
+img{
+  
+}
